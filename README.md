@@ -20,10 +20,11 @@ Follow these simple steps to get started with the Shopping Page:
    git clone https://github.com/Winnielegal/Shopping-page.git
 Navigate to the Project Directory:
 
-bash
-Copy code
+
+   ```bash
 cd Shopping-page
-Open shoppingpage.html in a Web Browser:
+
+2. Open shoppingpage.html in a Web Browser:
 Open the shoppingpage.html file in your preferred web browser to instantly view the shopping page.
 
 Explore and Customize:
