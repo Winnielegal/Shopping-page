@@ -1,0 +1,1138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+  width: 1280px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-color: white;
+}
+
+
+
+
+.text {
+  font-size: 22px;
+  font-weight: bold;
+  height: 27px;
+  width: 79px;
+  color: #000000;
+}
+
+.top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.centered-elements {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart, .login {
+  font-size: 18px;
+  color: #000000;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  /* Add margin to create space between elements */
+}
+
+
+.cart-icon {
+    font-size: 18px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 4.14px;
+  width: 29px;
+  height: 20.29px;
+  position: absolute;
+  left: 29px
+}
+
+.line {
+    width: 29px;
+    height: 4px;
+    background: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.line:nth-child(2) {
+    width: 24.86px;
+    order: 1;
+}
+
+.line:nth-child(3) {
+    width: 20.71px;
+    order: 2;
+}
+ 
+.frame-image {
+    position: absolute;
+    width: 487px;
+    height: 244px;
+    left: 730px;
+    top: 211px;
+    background: url(image.png);
+}
+
+.frame::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+
+.image-text {
+  position: absolute;
+  width: auto;
+  height: 26px;
+  left: 901px;
+  top: 508px;
+  font-size: 16px;
+  
+
+
+}
+
+
+
+
+.second-frame {
+    width: 1280px;
+    height: 752px;
+    background-color: whitesmoke;
+    border-top: 2px solid darkgray;
+}
+
+
+.aviator-text {
+    position: absolute;
+    top: 152px;
+    left: 52px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #000000;
+    height: 49px;
+}
+
+.description-text {
+    position: absolute;
+    top: 201px;
+    left: 52px;
+    font-size: 16px;
+    font-weight: normal;
+    width: 320px;
+    color: #000000;
+    line-height: 26px;
+    height: 104px;
+}
+
+
+.price-text {
+    position: absolute;
+    top: 305px; 
+    left: 52px;
+    font-size: 16px;
+    font-weight: normal;
+    width: 250px;
+    color: #000000;
+    line-height: 26px;
+    height: 52px;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+.buy-button {
+    position: absolute;
+    top: 390px; 
+    left: 46px;
+    font-size: 16px;
+    font-weight: normal;
+    width: 170px;
+    height: 46px;
+    
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+  width: 10px;
+  height: 10px;
+}
+
+.arrow1{
+  width: 13px;
+  height: 10px;
+}
+
+.product-details {
+    position: absolute;
+    width: 162px;
+    height: 26px;
+    left: 148px;
+    top: 629px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+
+
+.third-frame {
+    width:  289px;
+    height:  448px;
+    background-color: #FFFFFF;
+    top: 198px;
+    left: 82px;
+}
+
+
+
+.Fashion{
+position: absolute;
+width: 59px;
+height: 26px;
+left: 480px;
+top: 910px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #000000;
+}
+
+.Travel{
+  position: absolute;
+  width: 59px;
+  height: 26px;
+  left: 590px;
+  top: 910px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  }
+  
+  .Every-Gay{
+display: flex;
+  }
+
+  .Every{
+    position: absolute;
+    width: 59px;
+    height: 26px;
+    left: 700px;
+    top: 910px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-right: 10px;
+    }
+    
+    .Gay{
+      position: absolute;
+    width: 59px;
+    height: 26px;
+    left: 750px;
+    top: 910px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-right: 10px;
+    }
+
+
+
+.card1 {
+    position: absolute;
+    width: 289px;
+    height: 448px;
+    left: 82px;
+    top: 1020px;
+    background: #F3F3F3;
+
+  }
+
+  .cart2, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: #000000;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+
+}
+
+  .card1 img {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    left: 19px;
+    top: 8px;
+  }
+  
+  .card1 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card1 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card1 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card1 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  }
+  
+
+  .card2 {
+    position:absolute;
+    width: 289px;
+    height: 448px;
+    background: #F3F3F3;
+    left: 480px;
+    top: 1020px;
+    
+    
+  }
+  
+  .cart3, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: black;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+  }
+
+  .card2 img {
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    top: 34px;
+    left: 43px;
+  }
+  
+  .card2 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card2 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card2 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card2 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  
+  }
+
+
+  .card3 {
+    position:absolute;
+    width: 289px;
+    height: 448px;
+    background: #F3F3F3;
+    left: 891px;
+    top: 1020px;
+    
+    
+  }
+  
+  .cart4, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: black;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+  }
+
+  .card3 img {
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    top: 20px;
+    left: 43px;
+  }
+  
+  .card3 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card3 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card3 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card3 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  
+  }
+
+
+  .card4 {
+    position:absolute;
+    width: 289px;
+    height: 448px;
+    background: #F3F3F3;
+    left: 82px;
+    top: 1560px;
+    
+    
+  }
+  
+  .cart5, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: black;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+  }
+
+  .card4 img {
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    top: 29px;
+    left: 35px;
+  }
+  
+  .card4 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card4 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card4 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card4 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  
+  }
+
+
+  .card5 {
+    position:absolute;
+    width: 289px;
+    height: 448px;
+    background: #F3F3F3;
+    left: 480px;
+    top: 1560px;
+    
+    
+  }
+  
+  .cart6, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: black;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+  }
+
+  .card5 img {
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    top: 29px;
+    left: 40px;
+
+  }
+  
+  .card5 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card5 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card5 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card5 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  
+  }
+
+
+  .card6 {
+    position:absolute;
+    width: 289px;
+    height: 448px;
+    background: #F3F3F3;
+    left: 891px;
+    top: 1560px;
+    
+    
+  }
+  
+  .cart7, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: black;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+  }
+
+  .card6 img {
+    width: 200px;
+    height: 111px;
+    position: absolute;
+    top: 68px;
+    left: 45px;
+  }
+  
+  .card6 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card6 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card6 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card6 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  
+  }
+
+
+  .card7 {
+    position:absolute;
+    width: 289px;
+    height: 448px;
+    background: #F3F3F3;
+    left: 82px;
+    top: 2100px;
+    
+    
+  }
+  
+  .cart8, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: black;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+  }
+
+  .card7 img {
+    width: 136px;
+    height: 136px;
+    position: absolute;
+    top: 77px;
+    left: 45px;
+  }
+  
+  .card7 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card7 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card7 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card7 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  
+  }
+
+
+  .card8 {
+    position:absolute;
+    width: 289px;
+    height: 448px;
+    background: #F3F3F3;
+    left: 480px;
+    top: 2100px;
+    
+    
+  }
+  
+  .cart9, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: black;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+  }
+
+  .card8 img {
+    width: 221px;
+    height: 221px;
+    position: absolute;
+    top: 0px;
+    left: 52px;
+
+  }
+  
+  .card8 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card8 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card8 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card8 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  
+  }
+
+
+  .card9 {
+    position:absolute;
+    width: 289px;
+    height: 448px;
+    background: #F3F3F3;
+    left: 891px;
+    top: 2100px;
+    
+    
+  }
+  
+  .cart10, .top-right{
+    font-size: 23px;
+    width: auto;
+    height: auto;
+    color: black;
+    align-items: center;
+    left: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  
+  }
+
+  .card9 img {
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    top: 23px;
+    left: 56px;
+  }
+  
+  .card9 h2 {
+    position: absolute;
+    width: 229px;
+    height: 52px;
+    left: 30px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card9 p {
+    position: absolute;
+    width: 120px;
+    height: 26px;
+    left: 85px;
+    top: 334px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card9 button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 52px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 46px;
+    left: 60px;
+    top: 378px;
+    border: 1px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  .card9 button::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 247px;
+    top: 14px;
+  
+  }
